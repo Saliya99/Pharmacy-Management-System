@@ -27,7 +27,7 @@ function edit(action) {
 function updateAdminDetails() {
   var pharmacy_name = document.getElementById('pharmacy_name');
   var address = document.getElementById('address');
-  var email = ocument.getElementById('email');
+  var email = document.getElementById('email');
   var contact_number = document.getElementById('contact_number');
   var username = document.getElementById('username');
 
