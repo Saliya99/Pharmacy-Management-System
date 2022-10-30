@@ -11,7 +11,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Logout</title>
+    <title>! Loging again !</title>
     <script src="js/restrict.js"></script>
   </head>
   <body>
