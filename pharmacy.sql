@@ -29,15 +29,19 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `admin_credentials` (
   `USERNAME` varchar(50) COLLATE utf16_bin NOT NULL,
-  `PASSWORD` varchar(50) COLLATE utf16_bin NOT NULL
+  `PASSWORD` varchar(50) COLLATE utf16_bin NOT NULL,
+  `PHARMACY_NAME` varchar(20) COLLATE utf16_bin NOT NULL,
+  `ADDRESS` varchar(100) COLLATE utf16_bin NOT NULL,
+  `EMAIL` varchar(50) COLLATE utf16_bin NOT NULL,
+  `CONTACT_NUMBER` varchar(10) COLLATE utf16_bin NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16 COLLATE=utf16_bin;
 
 --
 -- Dumping data for table `admin_credentials`
 --
 
-INSERT INTO `admin_credentials` (`USERNAME`, `PASSWORD`) VALUES
-('admin', 'admin123');
+INSERT INTO `admin_credentials` (`USERNAME`, `PASSWORD`,`PHARMACY_NAME`,`ADDRESS`,`EMAIL`,`CONTACT_NUMBER`) VALUES
+('admin', 'admin123', 'Medi Sense', 'Matara-Town', 'medisense@gmail.com', '0411234567');
 
 -- --------------------------------------------------------
 
