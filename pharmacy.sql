@@ -63,11 +63,11 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`ID`, `NAME`, `CONTACT_NUMBER`, `ADDRESS`, `DOCTOR_NAME`, `DOCTOR_ADDRESS`) VALUES
-(4, 'Kiran Suthar', '1234567690', 'Andheri East', 'Anshari', 'Andheri East'),
-(6, 'Aditya', '7365687269', 'Virar West', 'Xyz', 'Virar West'),
-(11, 'Shivam Tiwari', '6862369896', 'Dadar West', 'Dr Kapoor', 'Dadar East'),
-(13, 'Varsha Suthar', '7622369694', 'Rani Station', 'Dr Ramesh', 'Rani Station'),
-(14, 'Prakash Bhattarai', '9802851472', 'Pokhara-16, Dhikidada', 'Hari Bahadur', 'Matepani-12');
+(4, 'Saliya Prasandika', '1234567690', 'Matara', 'Abc', 'Efg'),
+(6, 'Aditya', '7365687269', 'Colombo West', 'Xyz', 'Colombo West'),
+(11, 'Shivam', '6862369896', 'Kalutara West', 'Dr Kapoor', 'Kalutara East'),
+(13, 'Varsha', '7622369694', 'Rani Station', 'Dr Ramesh', 'Rani Station'),
+(14, 'Prakash', '9802851472', 'Abc-16, Deniyaya', 'Hari Bahadur', 'Matepani-12');
 
 -- --------------------------------------------------------
 
@@ -176,9 +176,9 @@ CREATE TABLE `suppliers` (
 --
 
 INSERT INTO `suppliers` (`ID`, `NAME`, `EMAIL`, `CONTACT_NUMBER`, `ADDRESS`) VALUES
-(1, 'Desai Pharma', 'desai@gmail.com', '9948724242', 'Mahim East'),
+(1, 'Desai Pharma', 'desai@gmail.com', '9948724242', 'Kalutara East'),
 (2, 'BDPL PHARMA', 'bdpl@gmail.com', '8645632963', 'Santacruz West'),
-(9, 'Kiran Pharma', 'kiranpharma@gmail.com', '7638683637', 'Andheri East'),
+(9, 'Kiran Pharma', 'kiranpharma@gmail.com', '7638683637', 'And East'),
 (10, 'Rsrnrnrndnn', 'ydj', '3737355538', '3fndfndfndndfnfdndfn'),
 (11, 'Dfnsfndfndf', 'fnsn', '5475734385', 'Ndnss4yrhrhdhrdhrh'),
 (12, 'SS Distributors', 'ssdis@gamil.com', '3867868752', 'Matunga West'),
