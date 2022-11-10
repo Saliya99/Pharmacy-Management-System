@@ -52,7 +52,7 @@ function showPurchaseRow($seq_no, $row) {
     <td><?php echo $seq_no; ?></td>
     <td><?php echo $row['PURCHASE_DATE']; ?></td>
     <td><?php echo $row['VOUCHER_NUMBER']; ?></td>
-    <td><?php echo $row['INVOICE_ID']; ?></td>
+    <td><?php echo $row['INVOICE_NUMBER']; ?></td>
     <td><?php echo $row['SUPPLIER_NAME'] ?></td>
     <td><?php echo $row['TOTAL_AMOUNT']; ?></td>
   </tr>

@@ -19,7 +19,7 @@
             <a href="change_password.php"><i class="fa fa-edit"></i><span>Change Password</span></a>
           </li>
           <li>
-            <a href="loguot\!-Log-Out-!.html"><i class="fa fa-key"></i><span>Logout</span></a>
+           <a href="loguot\!-Log-Out-!.html"><i class="fa fa-key"></i><span>Logout</span></a>
           </li>
         </ul>
       </div>
